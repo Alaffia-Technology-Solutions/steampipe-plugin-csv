@@ -1,5 +1,5 @@
-connection "csv" {
-  plugin = "csv"
+connection "s3" {
+  plugin = "Alaffia-Technology-Solutions/s3"
 
   # Paths is a list of locations to search for CSV files
   # All paths are resolved relative to the current working directory (CWD)

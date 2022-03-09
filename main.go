@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/turbot/steampipe-plugin-csv/csv"
-	"github.com/turbot/steampipe-plugin-sdk/plugin"
+	"github.com/Alaffia-Technology-Solutions/steampipe-plugin-s3/s3"
+	"github.com/turbot/steampipe-plugin-sdk/v2/plugin"
 )
 
 func main() {
-	plugin.Serve(&plugin.ServeOpts{PluginFunc: csv.Plugin})
+	plugin.Serve(&plugin.ServeOpts{PluginFunc: s3.Plugin})
 }

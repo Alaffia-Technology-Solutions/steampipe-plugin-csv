@@ -7,7 +7,7 @@ builds:
   - env:
       - CGO_ENABLED=0
       - GO111MODULE=on
-      - GOPRIVATE=github.com/turbot
+      - GOPRIVATE=github.com/Alaffia-Technology-Solutions
     goos:
       - linux
       - darwin
@@ -19,7 +19,7 @@ builds:
       - goos: darwin # docs suggest that darwin arm64 should compile, but doesn't...
         goarch: arm64
 
-    id: "steampipe-csv"
+    id: "steampipe-s3"
     binary: "{{ .ProjectName }}.plugin"
 
 archives:
